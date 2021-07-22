@@ -1,3 +1,35 @@
+#topBar {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#leftTopNavBar {
+    width: 15%;
+}
+
+.topButton {
+    margin: 5px 10px;
+}
+
+#rightTopNavBar {
+    height: 20px;
+    width: 25%;
+}
+
+#appImage {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#signIn {
+    background-color: #4285f4;
+    color: white;
+}
+
 #center {
     display: flex;
     flex-direction: column;
@@ -18,6 +50,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
