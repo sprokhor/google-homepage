@@ -3,11 +3,11 @@
     top: 10px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 98%;
 }
 
 #leftTopNavBar {
-    width: 15%;
+
 }
 
 .topButton {
@@ -16,7 +16,6 @@
 
 #rightTopNavBar {
     height: 20px;
-    width: 25%;
 }
 
 #appImage {
@@ -68,4 +67,12 @@
 
 .centerButton {
     margin: 5px 10px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
 }
